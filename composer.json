@@ -1,0 +1,28 @@
+{
+	"name": "lav45/yii2-highcharts-widget",
+	"description": "Highcharts widget for Yii 2 Framework.",
+	"keywords": ["yii2", "extension", "widget", "highcharts", "highstock", "highmaps"],
+	"homepage": "https://github.com/lav45/yii2-highcharts-widget",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Alex Loban",
+			"email": "lav451@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "2.0.*",
+        "bower-asset/highcharts-release": "4.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"lav45\\highcharts\\": "src"
+		}
+	},
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
