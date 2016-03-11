@@ -16,7 +16,6 @@ class HighchartsAsset extends AssetBundle
 
     public $js = [
         'highcharts.js',
-        'modules/exporting.js',
     ];
 
     public $depends = [
